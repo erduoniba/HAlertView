@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0408159B19EFBAB500AB40F8 /* HAlertView4.m in Sources */ = {isa = PBXBuildFile; fileRef = 0408159A19EFBAB500AB40F8 /* HAlertView4.m */; };
+		0408159F19EFC1FC00AB40F8 /* AdaptiveLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0408159E19EFC1FC00AB40F8 /* AdaptiveLabelView.m */; };
+		040815A119EFC71900AB40F8 /* label@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 040815A019EFC71900AB40F8 /* label@2x.png */; };
+		040815A419EFCEC100AB40F8 /* FriendObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 040815A319EFCEC100AB40F8 /* FriendObj.m */; };
 		04B636AB19EF8CA900B173D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B636AA19EF8CA900B173D7 /* main.m */; };
 		04B636AE19EF8CA900B173D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B636AD19EF8CA900B173D7 /* AppDelegate.m */; };
 		04B636B119EF8CA900B173D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B636B019EF8CA900B173D7 /* ViewController.m */; };
@@ -14,6 +18,13 @@
 		04B636B619EF8CA900B173D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B636B519EF8CA900B173D7 /* Images.xcassets */; };
 		04B636B919EF8CA900B173D7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B636B719EF8CA900B173D7 /* LaunchScreen.xib */; };
 		04B636C519EF8CA900B173D7 /* HarryAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B636C419EF8CA900B173D7 /* HarryAlertViewTests.m */; };
+		04B636DB19EF8D9D00B173D7 /* ico_pyq_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B636D319EF8D9D00B173D7 /* ico_pyq_nor@2x.png */; };
+		04B6370219EF914000B173D7 /* HAlertView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B6370119EF914000B173D7 /* HAlertView1.m */; };
+		04B6370419EF914F00B173D7 /* HAlertView1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B6370319EF914F00B173D7 /* HAlertView1.xib */; };
+		04B6370719EFA06400B173D7 /* HAlertView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B6370619EFA06400B173D7 /* HAlertView2.m */; };
+		04B6370E19EFAB5A00B173D7 /* HAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B6370D19EFAB5A00B173D7 /* HAlertView.m */; };
+		04B6371119EFAE6A00B173D7 /* HAlertView3.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B6371019EFAE6A00B173D7 /* HAlertView3.m */; };
+		04B6371319EFB25400B173D7 /* header@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B6371219EFB25400B173D7 /* header@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0408159919EFBAB500AB40F8 /* HAlertView4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAlertView4.h; sourceTree = "<group>"; };
+		0408159A19EFBAB500AB40F8 /* HAlertView4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAlertView4.m; sourceTree = "<group>"; };
+		0408159D19EFC1FC00AB40F8 /* AdaptiveLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdaptiveLabelView.h; sourceTree = "<group>"; };
+		0408159E19EFC1FC00AB40F8 /* AdaptiveLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdaptiveLabelView.m; sourceTree = "<group>"; };
+		040815A019EFC71900AB40F8 /* label@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "label@2x.png"; sourceTree = "<group>"; };
+		040815A219EFCEC100AB40F8 /* FriendObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendObj.h; sourceTree = "<group>"; };
+		040815A319EFCEC100AB40F8 /* FriendObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendObj.m; sourceTree = "<group>"; };
 		04B636A519EF8CA900B173D7 /* HarryAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarryAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B636A919EF8CA900B173D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04B636AA19EF8CA900B173D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +58,17 @@
 		04B636BE19EF8CA900B173D7 /* HarryAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarryAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B636C319EF8CA900B173D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04B636C419EF8CA900B173D7 /* HarryAlertViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HarryAlertViewTests.m; sourceTree = "<group>"; };
+		04B636D319EF8D9D00B173D7 /* ico_pyq_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico_pyq_nor@2x.png"; sourceTree = "<group>"; };
+		04B6370019EF914000B173D7 /* HAlertView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAlertView1.h; sourceTree = "<group>"; };
+		04B6370119EF914000B173D7 /* HAlertView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAlertView1.m; sourceTree = "<group>"; };
+		04B6370319EF914F00B173D7 /* HAlertView1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HAlertView1.xib; sourceTree = "<group>"; };
+		04B6370519EFA06400B173D7 /* HAlertView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAlertView2.h; sourceTree = "<group>"; };
+		04B6370619EFA06400B173D7 /* HAlertView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAlertView2.m; sourceTree = "<group>"; };
+		04B6370C19EFAB5A00B173D7 /* HAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAlertView.h; sourceTree = "<group>"; };
+		04B6370D19EFAB5A00B173D7 /* HAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAlertView.m; sourceTree = "<group>"; };
+		04B6370F19EFAE6A00B173D7 /* HAlertView3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAlertView3.h; sourceTree = "<group>"; };
+		04B6371019EFAE6A00B173D7 /* HAlertView3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAlertView3.m; sourceTree = "<group>"; };
+		04B6371219EFB25400B173D7 /* header@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "header@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0408159C19EFC1E300AB40F8 /* AdaptiveLabelView */ = {
+			isa = PBXGroup;
+			children = (
+				0408159D19EFC1FC00AB40F8 /* AdaptiveLabelView.h */,
+				0408159E19EFC1FC00AB40F8 /* AdaptiveLabelView.m */,
+			);
+			path = AdaptiveLabelView;
+			sourceTree = "<group>";
+		};
 		04B6369C19EF8CA900B173D7 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 		04B636A719EF8CA900B173D7 /* HarryAlertView */ = {
 			isa = PBXGroup;
 			children = (
+				0408159C19EFC1E300AB40F8 /* AdaptiveLabelView */,
+				04B636FF19EF912F00B173D7 /* HAlertView */,
 				04B636AC19EF8CA900B173D7 /* AppDelegate.h */,
 				04B636AD19EF8CA900B173D7 /* AppDelegate.m */,
 				04B636AF19EF8CA900B173D7 /* ViewController.h */,
@@ -96,6 +136,7 @@
 		04B636A819EF8CA900B173D7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04B636D219EF8D9100B173D7 /* Images */,
 				04B636A919EF8CA900B173D7 /* Info.plist */,
 				04B636AA19EF8CA900B173D7 /* main.m */,
 			);
@@ -117,6 +158,36 @@
 				04B636C319EF8CA900B173D7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04B636D219EF8D9100B173D7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				040815A019EFC71900AB40F8 /* label@2x.png */,
+				04B6371219EFB25400B173D7 /* header@2x.png */,
+				04B636D319EF8D9D00B173D7 /* ico_pyq_nor@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		04B636FF19EF912F00B173D7 /* HAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				04B6370C19EFAB5A00B173D7 /* HAlertView.h */,
+				04B6370D19EFAB5A00B173D7 /* HAlertView.m */,
+				04B6370019EF914000B173D7 /* HAlertView1.h */,
+				04B6370119EF914000B173D7 /* HAlertView1.m */,
+				04B6370319EF914F00B173D7 /* HAlertView1.xib */,
+				04B6370519EFA06400B173D7 /* HAlertView2.h */,
+				04B6370619EFA06400B173D7 /* HAlertView2.m */,
+				04B6370F19EFAE6A00B173D7 /* HAlertView3.h */,
+				04B6371019EFAE6A00B173D7 /* HAlertView3.m */,
+				0408159919EFBAB500AB40F8 /* HAlertView4.h */,
+				0408159A19EFBAB500AB40F8 /* HAlertView4.m */,
+				040815A219EFCEC100AB40F8 /* FriendObj.h */,
+				040815A319EFCEC100AB40F8 /* FriendObj.m */,
+			);
+			path = HAlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +270,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B6371319EFB25400B173D7 /* header@2x.png in Resources */,
+				04B6370419EF914F00B173D7 /* HAlertView1.xib in Resources */,
+				040815A119EFC71900AB40F8 /* label@2x.png in Resources */,
 				04B636B419EF8CA900B173D7 /* Main.storyboard in Resources */,
+				04B636DB19EF8D9D00B173D7 /* ico_pyq_nor@2x.png in Resources */,
 				04B636B919EF8CA900B173D7 /* LaunchScreen.xib in Resources */,
 				04B636B619EF8CA900B173D7 /* Images.xcassets in Resources */,
 			);
@@ -220,8 +295,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				04B636B119EF8CA900B173D7 /* ViewController.m in Sources */,
+				0408159B19EFBAB500AB40F8 /* HAlertView4.m in Sources */,
+				04B6370719EFA06400B173D7 /* HAlertView2.m in Sources */,
+				040815A419EFCEC100AB40F8 /* FriendObj.m in Sources */,
+				04B6370E19EFAB5A00B173D7 /* HAlertView.m in Sources */,
 				04B636AE19EF8CA900B173D7 /* AppDelegate.m in Sources */,
+				0408159F19EFC1FC00AB40F8 /* AdaptiveLabelView.m in Sources */,
 				04B636AB19EF8CA900B173D7 /* main.m in Sources */,
+				04B6370219EF914000B173D7 /* HAlertView1.m in Sources */,
+				04B6371119EFAE6A00B173D7 /* HAlertView3.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +494,7 @@
 				04B636CA19EF8CA900B173D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04B636CB19EF8CA900B173D7 /* Build configuration list for PBXNativeTarget "HarryAlertViewTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +503,7 @@
 				04B636CD19EF8CA900B173D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

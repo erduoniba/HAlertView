@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HAlertView1">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BO4-5T-bRI">
+                    <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="titleEdgeInsets" minX="-53" minY="78" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="14" minY="-12" maxX="-4" maxY="0.0"/>
+                    <state key="normal" title="微信好友" image="ico_pyq_nor.png">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="itemTap:" destination="iN0-l3-epB" eventType="touchUpInside" id="Gyb-4c-xTe"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eQL-Hq-otg">
+                    <rect key="frame" x="100" y="0.0" width="100" height="100"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="titleEdgeInsets" minX="-53" minY="78" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="14" minY="-12" maxX="-4" maxY="0.0"/>
+                    <state key="normal" title="微信好友" image="ico_pyq_nor.png">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="itemTap:" destination="iN0-l3-epB" eventType="touchUpInside" id="w95-bh-IPq"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jv9-ie-wYo">
+                    <rect key="frame" x="200" y="0.0" width="100" height="100"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="titleEdgeInsets" minX="-53" minY="78" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="14" minY="-12" maxX="-4" maxY="0.0"/>
+                    <state key="normal" title="微信好友" image="ico_pyq_nor.png">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="itemTap:" destination="iN0-l3-epB" eventType="touchUpInside" id="NoV-KV-GKY"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YA4-cX-H7O">
+                    <rect key="frame" x="0.0" y="100" width="100" height="100"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="titleEdgeInsets" minX="-53" minY="78" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="14" minY="-12" maxX="-4" maxY="0.0"/>
+                    <state key="normal" title="微信好友" image="ico_pyq_nor.png">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="itemTap:" destination="iN0-l3-epB" eventType="touchUpInside" id="KZy-kq-qa7"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kp2-jA-FB8">
+                    <rect key="frame" x="100" y="100" width="100" height="100"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="titleEdgeInsets" minX="-53" minY="78" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="14" minY="-12" maxX="-4" maxY="0.0"/>
+                    <state key="normal" title="微信好友" image="ico_pyq_nor.png">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="itemTap:" destination="iN0-l3-epB" eventType="touchUpInside" id="ZYG-sQ-aN6"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6uj-ym-vMz">
+                    <rect key="frame" x="200" y="100" width="100" height="100"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="titleEdgeInsets" minX="-53" minY="78" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="14" minY="-12" maxX="-4" maxY="0.0"/>
+                    <state key="normal" title="微信好友" image="ico_pyq_nor.png">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="itemTap:" destination="iN0-l3-epB" eventType="touchUpInside" id="hvC-9v-p3E"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Seq-X7-ldL">
+                    <rect key="frame" x="0.0" y="200" width="100" height="100"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="titleEdgeInsets" minX="-53" minY="78" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="14" minY="-12" maxX="-4" maxY="0.0"/>
+                    <state key="normal" title="微信好友" image="ico_pyq_nor.png">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="itemTap:" destination="iN0-l3-epB" eventType="touchUpInside" id="rBk-3T-l7H"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="204" y="275"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ico_pyq_nor.png" width="60" height="60"/>
+    </resources>
+</document>
