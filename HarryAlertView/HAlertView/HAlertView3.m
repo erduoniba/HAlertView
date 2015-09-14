@@ -19,7 +19,8 @@
     self = [super init];
     if (self) {
         
-        CGSize textSize = [content sizeWithFont:[UIFont systemFontOfSize:14] constrainedToSize:CGSizeMake(Main_Size.width - HAV_Init_X * 2 - 32, 999) lineBreakMode:NSLineBreakByWordWrapping];
+        CGRect rect = [content boundingRectWithSize:CGSizeMake(Main_Size.width - HAV_Init_X * 2 - 32, 999) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName: [UIFont systemFontOfSize:14]} context:nil];
+        CGSize textSize = rect.size;
         CGFloat adaptiveHeight = 54 + 50 + textSize.height + 44;
         self.frame = CGRectMake(HAV_Init_X, (Main_Size.height - adaptiveHeight) / 2, Main_Size.width - HAV_Init_X * 2, adaptiveHeight);
         CGFloat contentInitY = 0;
