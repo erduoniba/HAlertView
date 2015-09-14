@@ -21,7 +21,8 @@
         CGFloat next_init_y = 0;
         
         for (int i=0; i<labels.count; i++) {
-            CGSize textSize = [labels[i] sizeWithFont:[UIFont systemFontOfSize:14] constrainedToSize:CGSizeMake(200, default_label_height) lineBreakMode:NSLineBreakByWordWrapping];
+            CGRect rect = [labels[i] boundingRectWithSize:CGSizeMake(200, default_label_height) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName: [UIFont systemFontOfSize:14]} context:nil];
+            CGSize textSize = rect.size;
 
             UIImage *image = [UIImage imageNamed:@"label"];
             image = [image resizableImageWithCapInsets:UIEdgeInsetsMake(0, 21, 0, 21)];
